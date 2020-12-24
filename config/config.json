@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "student-info-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/studentInfo/StudentInfoWebPart.js",
+          "manifest": "./src/webparts/studentInfo/StudentInfoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StudentInfoWebPartStrings": "lib/webparts/studentInfo/loc/{locale}.js"
+  }
+}
